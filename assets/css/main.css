@@ -3905,6 +3905,10 @@
 		height: 20rem;
 		width: 20rem;
 		object-fit: cover;
-		border-radius: 5px;
+		border-radius: 25px;
 		margin-bottom: 2em;
+	}
+
+	.links {
+		margin-bottom: .5em;
 	}
