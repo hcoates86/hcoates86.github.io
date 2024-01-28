@@ -3258,6 +3258,12 @@ input, select, textarea {
 
 	}
 
+	@media screen and (min-width: 401px) {
+		#contact-ul {
+			text-align: center;
+		  }
+	}
+
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
@@ -3309,6 +3315,11 @@ input, select, textarea {
 			ul.feature-icons li {
 				display: block;
 				width: 100%;
+			}
+
+			ul.icons {
+				display: flex;
+				justify-content: center;
 			}
 
 		/* Button */
@@ -3371,10 +3382,6 @@ input, select, textarea {
 		font-size: 2em;
 		margin: 1em;
 		color: #830eba;
-	  }
-
-	  #contact-ul {
-		text-align: center;
 	  }
 
 	  #contact-ul :hover {
