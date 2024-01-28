@@ -3262,6 +3262,13 @@ input, select, textarea {
 		#contact-ul {
 			text-align: center;
 		  }
+
+		  .grid-container {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-gap: .5rem;
+			margin: 1rem;
+		  }
 	}
 
 /* XSmall */
@@ -3322,6 +3329,12 @@ input, select, textarea {
 				justify-content: center;
 			}
 
+			.grid-container {
+			grid-template-columns: repeat(2, .5fr);
+
+
+			}
+
 		/* Button */
 
 			input[type="submit"],
@@ -3335,12 +3348,7 @@ input, select, textarea {
 
 	/* Custom */
 
-	.grid-container {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-gap: .5rem;
-		margin: 1rem;
-	  }
+	
   
 	  .grid-item {
 		background-color: rgb(70, 70, 70);
@@ -3349,6 +3357,11 @@ input, select, textarea {
 		padding: 20px;
 		border-radius: 5px;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	  }
+
+	  .grid-item :hover {
+		background-color: #830eba;
+		transition: .2s all;
 	  }
 
 	  .devicons {
@@ -3386,4 +3399,9 @@ input, select, textarea {
 
 	  #contact-ul :hover {
 		color:#830eba4f;
+	  }
+
+	  .resume {
+		color: black;
+		font-size: 1.2em;
 	  }
