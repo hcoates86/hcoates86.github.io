@@ -3359,10 +3359,11 @@ input, select, textarea {
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 	  }
 
-	  .grid-item :hover {
+	  /* make hover over entire cell (nested grid?), and change color of icon */
+	  /* .grid-item :hover {
 		background-color: #830eba;
 		transition: .2s all;
-	  }
+	  } */
 
 	  .devicons {
 		font-size: 4em;
